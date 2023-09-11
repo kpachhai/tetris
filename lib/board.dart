@@ -22,7 +22,7 @@ class _GameBoardState extends State<GameBoard> {
           physics: const NeverScrollableScrollPhysics(),
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: rowLength),
-          itemBuilder: (context, index) => Pixel(color: Colors.grey[900]),
+          itemBuilder: (context, index) => Pixel(color: Colors.red[900]),
         ));
   }
 }
